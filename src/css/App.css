@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+button,
+textarea {
+  border-radius: 0 !important;
+}
+
+textarea {
+  border-top-right-radius: 5px !important;
+}
+
+textarea {
+  resize: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .form-control {
+    margin-bottom: 10px !important;
+  }
+}
+
+.heading {
+  margin-bottom: 10px;
+}
+
+.form-check-input:checked {
+  background-color: #198754 !important;
+  border: 0 !important;
+}
+
+.nav-tabs {
+  border: 0 !important;
+}
+
+.nav-tabs .nav-link.active {
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+.markdown-editor {
+  height: 52vh;
+  overflow-y: scroll !important;
+}
